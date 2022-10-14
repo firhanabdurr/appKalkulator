@@ -5,316 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ujian Teka teki silang</title>
-    <script src="script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Firhan Abdurrahman - 1207050040</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-    <div class="tts-content">
-        <div class="tts-left">
-            <h2>Teka-teki silang</h2>
-            <p>Mendatar</p>
-            <ul>
-                <li>2. Shalat Sunat di bulan ramadhan</li>
-                <li>4. Bulan sebelum syawal</li>
-                <li>5. Tantangan siang hari dibulan Ramadhan</li>
-                <li>6. Jalan-jalan sore menunggu magrib di bulan Ramadhan</li>
-            </ul>
-
-            <p>Menurun</p>
-            <ul>
-                <li>1. Hidangan berbuka di bulan puasa</li>
-                <li>2. Ngaji Quran</li>
-                <li>3. Hari Kemenangan</li>
-            </ul>
-
+    <div class="calculator-grid">
+        <div class="output">
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand"></div>
         </div>
-
-        <div class="tts-right">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <table class=" tabel">
-                            <tr>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id">1</p>
-                                    <p class="word-id">T</p>
-                                </td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                            </tr>
-                            <tr>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id">2</p>
-                                    <p class="word-id">T</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">A</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">R</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">A</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">W</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id">3</p>
-                                    <p class="word-id">E</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">H</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">A</p>
-                                </td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">K</p>
-                                </td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">I</p>
-                                </td>
-                                <td class="black"></td>
-                            </tr>
-                            <tr>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">D</p>
-                                </td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">J</p>
-                                </td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">D</p>
-                                </td>
-                                <td class="black"></td>
-                            </tr>
-                            <tr>
-                                <td class="white">
-                                    <p class="num-id">4</p>
-                                    <p class="word-id">R</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">A</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">M</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">A</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">D</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">A</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">N</p>
-                                </td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">I</p>
-                                </td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">A</p>
-                                </td>
-                                <td class="black"></td>
-                            </tr>
-                            <tr>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">R</p>
-                                </td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">L</p>
-                                </td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">L</p>
-                                </td>
-                                <td class="black"></td>
-                            </tr>
-                            <tr>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id">5</p>
-                                    <p class="word-id">H</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">A</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">U</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">S</p>
-                                </td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">F</p>
-                                </td>
-                                <td class="black"></td>
-                            </tr>
-                            <tr>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">I</p>
-                                </td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">I</p>
-                                </td>
-                                <td class="black"></td>
-                            </tr>
-                            <tr>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">T</p>
-                                </td>
-                                <td class="black"></td>
-                            </tr>
-                            <tr>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="black"></td>
-                                <td class="white">
-                                    <p class="num-id">6</p>
-                                    <p class="word-id">S</p>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">A</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">H</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">U</p>
-                                </td>
-                                <td class="white">
-                                    <p class="num-id"></p>
-                                    <p class="word-id">R</p>
-                                </td>
-                                <td class="black"></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- bawah -->
-        <div class="tts-bottom">
-            <h2>Silahkan masukan jawaban kamu di kolom!!</h2>
-            <select name="soal" id="soal">
-                <option value="m1">1. Menurun</option>
-                <option value="d2">2. Mendatar</option>
-                <option value="m2">2. Menurun</option>
-                <option value="m3">3. Menurun</option>
-                <option value="d4">4. Mendatar</option>
-                <option value="d5">5. Mendatar</option>
-                <option value="d6">6. Mendatar</option>
-            </select>
-            <input type="text" name="jawaban" id="jawaban">
-            <input type="submit" value="submit" />
-        </div>
+        <button data-clear class="span-two">C</button>
+        <button data-delete class="">DEL</button>
+        <button data-operation>*</button>
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-operation>/</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-operation>+</button>
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-operation>-</button>
+        <button data-number>.</button>
+        <button data-number>0</button>
+        <button data-equals class="span-two">=</button>
     </div>
-
 </body>
 
 </html>
